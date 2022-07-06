@@ -8,4 +8,4 @@ const server =  http.createServer((request ,response) => {
     response.end();
 });
 
-server.listen(3005 , () => console.log("Server 3005 running..."));
+server.listen(process.env.PORT || 3005 , () => console.log("Server 3005 running..."));  //Available port or 3005
