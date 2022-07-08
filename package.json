@@ -10,11 +10,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "simpleNode": "ts-node-dev --respawn SimpleNode.ts",
-    "start": "ts-node-dev --respawn SimpleNode.ts",
+    "start": "ts-node-dev --respawn KoaGraphQL.ts",
     "simpleKoa": "ts-node-dev --respawn SimpleKoa.ts",
     "koaDB": "ts-node-dev --respawn KoaDBSQL",
     "koaTypeORM": "ts-node-dev --respawn KoaTypeORM.ts",
-    "koaGraphQL": "ts-node-dev --respawn KoaGraphQL"
+    "koaGraphQL": "ts-node-dev --respawn KoaGraphQL.ts"
   },
   "author": "",
   "license": "ISC",
